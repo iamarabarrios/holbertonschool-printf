@@ -1,5 +1,9 @@
 # C-printf
-Escribir nuestra propia función printf.
+write our own printf function.
+
+**Description:**
+The C library function int printf(const char *format, ...) sends the formatted output to stdout.
+_Prototype:_ int _printf(const char *format, ...);
 
 **_Concepts_**
 _For this project, we expect you to look at these concepts:_
