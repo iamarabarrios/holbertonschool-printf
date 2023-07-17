@@ -1,5 +1,5 @@
 # C-printf
-                                                Escribir nuestra propia función printf.
+Escribir nuestra propia función printf.
 
 **_Concepts_**
 _For this project, we expect you to look at these concepts:_
