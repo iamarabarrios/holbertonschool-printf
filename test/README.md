@@ -1,1 +1,1 @@
-Floder with main.c to make proves 
+Folder with main.c to make proves 
