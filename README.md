@@ -1,10 +1,10 @@
-                                                            #  C-printf
+                                                               C-printf
                                                 Escribir nuestra propia función printf.
 
 **_Concepts_**
 _For this project, we expect you to look at these concepts:_
 
-Approaching a Project
+# Approaching a Project
 Group Projects
 Pair Programming - How To
 Flowcharts
