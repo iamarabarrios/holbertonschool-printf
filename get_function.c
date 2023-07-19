@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* get_function - function.
+*get_function - function.
 * @t_step: conversion specifiers.
 * @args: arguments.
 * Return: char count.
