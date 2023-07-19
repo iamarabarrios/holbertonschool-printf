@@ -1,26 +1,30 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include <unistd.h>
-#include <string.h>
+
 /**
- *struct op - the struct
- *@op: the operator
- *@f: the function
- */
+*struct format - struct
+*@specifiers: struct format
+*@f: the function
+*/
+
 typedef struct op
-{/*puntero a la funcion f, toma un argumento de tipo va_list*/
+{
 	char op;
 	int (*f)(va_list);
 } op_t;
 
+/*prototypes*/
 int _printf(const char *format, ...);
-int (*get_op_func(char))(va_list);
+int get_function(char s, va_list args);
 int _putchar(char c);
-int printchar(va_list);
-int printstring(va_list *str);
-int printnum(va_list);
-int printsign(va_list);
-int putnum(unsigned long int n, int base, char *digits);
+
+/*conversion*/
+int printchar(va_list args);
+int printstring(va_list args);
+int printdigit(va_list args);
+int printsign(va_list args);
+
 #endif
