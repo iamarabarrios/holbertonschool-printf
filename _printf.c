@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
-*_printf - create printf.
+* _printf - create printf.
 *@format: Format.
 *Return: count chars.
 */
