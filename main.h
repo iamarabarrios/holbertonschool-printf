@@ -5,7 +5,7 @@
 #include <stdarg.h>
 
 /**
-*struct format - struct
+* struct format - struct
 *@specifiers: struct format
 *@f: the function
 */
