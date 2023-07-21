@@ -137,7 +137,7 @@ int printstring(va_list args)
 		return (-1);
 
 	for (i = 0; str[i] != '\0'; i++)
-		count += putchar(str[i]);
+		count += _putchar(str[i]);
 
 	return (count);
 }
