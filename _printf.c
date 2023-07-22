@@ -19,7 +19,6 @@ int _printf(const char *format, ...)
 		return (-1);
 	while (format[i])
 	{
-		count_2 = 0;
 
 		if (format[i] == '%')
 		{
