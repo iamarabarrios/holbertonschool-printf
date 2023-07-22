@@ -9,7 +9,7 @@ int _printf(const char *format, ...)
 {
 	int i = 0;
 	int	count = 0;
-	int count_2 = 0;
+	int count_2;
 	va_list args;
 
 	va_start(args, format);
@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 		return (-1);
 	while (format[i])
 	{
-
+	count_2 = 0;
 		if (format[i] == '%')
 		{
 			if (!format[i + 1] || (format[i + 1] == ' ' && !format[i + 2]))
