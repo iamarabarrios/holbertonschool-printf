@@ -39,6 +39,19 @@ On the production, global variables were not allowed to use, nor were more than 
 2. Create a man page for your function.
 	- How to read the man page: `man ./man_3_printf`
 
+#Description files:
+
+- **_putchar.c:** We have the_putchar function, which writes a character to standard output using write.
+- **main.h:** We have all the prototypes that will be used during the program.
+- **get_function.c:** We use to call all the functions according to the format we need.
+- **_printf.c:** We have our_printf function
+
+**Library:**
+
+- #include <stdio.h> provides functions for input/output.
+- #include <stdlib.h> dynamic memory management and format conversion.
+- #include <stdarg.h> for variable arguments in functions
+
 ## Functions and macros used:
 
 - write (man 2 write)
@@ -70,7 +83,7 @@ Prototype: int _printf(const char *format, ...);
 - c - Print a single character.
 - s - Print a string.
 - % - Print the character '%'.
-- d - Print an int decimal.
+- d - Print an integer decimal.
 - i - Print an int decimal.
 
   ## Resources used:
@@ -79,7 +92,13 @@ Prototype: int _printf(const char *format, ...);
 - [Implementing printf and scanf in C](https://iq.opengenus.org/how-printf-and-scanf-function-works-in-c-internally/)
 - [All About Printf](https://akshatshibu.wordpress.com/2015/07/22/all-about-printf/)
 
+## Flowchart
+
+![Flowchart](https://iili.io/HQa26S1.jpg)
+
 ### Authors
 
-https://github.com/iamarabarrios
-https://github.com/gera190293
+- Gerardo Martinez: https://github.com/gera190293
+- Iamara Barrios: https://github.com/iamarabarrios
+
+
